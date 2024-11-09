@@ -1,0 +1,93 @@
+body{
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/018/800/338/small/colorful-grunge-art-painting-effect-of-light-hot-colored-of-sunset-clouds-cloud-on-the-sunset-sky-background-burning-background-abstract-watercolor-grunge-background-design-vector.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    color: black;
+    font-size: 45px;
+}
+form{
+    max-width: 600px;
+    margin: auto;
+    background-color: transparent;
+    border-radius: 8px;
+    border-width: 5px 5px 5px 5px;
+    border-color: aqua;
+    border-style: groove;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+@media only screen and (max-width: 768px) {
+    h1{
+        font-size: 30px;
+    }
+    form{
+        max-width: 85%;
+    }
+}
+fieldset{
+    border: 2px solid rgba(17, 21, 10);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+legend{
+    font-weight: bolder;
+    text-align: left;
+    color: black;
+}
+label{
+    display: block;
+    margin-bottom: 10px;
+    color: black;
+}
+input, textarea{
+    width: calc(100%-1px);
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid rgba(255, 255, 255);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+button{
+    display: block;
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    background: rgb(34, 184, 184);
+    color: black;
+    border: 3px solid rgba(255, 255, 255,);
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+button:hover{
+    background-color: pink;
+    color: black;
+}
+#resumePreview{
+    max-width: 600px;
+    margin: auto;
+    border: 2px solid black;
+    margin-top: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+    border-radius: 8px;
+    border-color: aqua;
+}
+#resumePreview h2{
+    color: black;
+    text-align: center;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+    #resumePreview{
+        max-width: 85%;
+    }
+}
